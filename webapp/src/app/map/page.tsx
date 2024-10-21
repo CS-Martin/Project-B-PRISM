@@ -3,7 +3,11 @@
 import Mapbox from './_components/mapbox';
 
 const MapPage = () => {
-  return <Mapbox />;
+  return (
+    <>
+      <Mapbox />
+    </>
+  );
 };
 
 export default MapPage;
